@@ -9,6 +9,7 @@ namespace RegexAssignment
         public string LastName { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
+        public string Password { get; set; }
 
 
         public void AcceptRecord()
@@ -24,6 +25,10 @@ namespace RegexAssignment
 
             Console.Write("Enter phone number : ");
             this.PhoneNumber = Console.ReadLine();
+
+            Console.WriteLine("Password must contain minimun 8 characters,  atleast 1 Upper case, atleast 1 number, atleast 1 Special Character.");
+            Console.Write("Enter password : ");
+            this.Password = Console.ReadLine();
         }
 
         public void CheckRegex()
@@ -64,7 +69,8 @@ namespace RegexAssignment
                 Console.WriteLine("Invalid Email format!!!");
             }
 
-            var phonePattern = @"\b(\d{2}\s)?\d{10}\b";
+            // var phonePattern = @"\b(\d{2}\s)?\d{10}\b";
+            var phonePattern = @"\+\d{2}\s[0-9]{10}";
 
             Regex reg3 = new Regex(phonePattern);
 
@@ -75,6 +81,19 @@ namespace RegexAssignment
             else
             {
                 Console.WriteLine("Invalid Number");
+            }
+
+            var passwordPattern = @"(?=.*[A-Z])(?=.*[!@#$%^&*()])(?=.*[0-9]).{8,}";
+
+            Regex reg4 = new Regex(passwordPattern);
+
+            if (reg4.IsMatch(this.Password))
+            {
+                Console.WriteLine($"Your passowrd : {this.Password}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid password");
             }
 
         }
