@@ -8,6 +8,7 @@ namespace RegexAssignment
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
+        public string PhoneNumber { get; set; }
 
 
         public void AcceptRecord()
@@ -20,6 +21,9 @@ namespace RegexAssignment
 
             Console.Write("Enter your Email : ");
             this.Email = Console.ReadLine();
+
+            Console.Write("Enter phone number : ");
+            this.PhoneNumber = Console.ReadLine();
         }
 
         public void CheckRegex()
@@ -58,6 +62,19 @@ namespace RegexAssignment
             else
             {
                 Console.WriteLine("Invalid Email format!!!");
+            }
+
+            var phonePattern = @"\b(\d{2}\s)?\d{10}\b";
+
+            Regex reg3 = new Regex(phonePattern);
+
+            if (reg3.IsMatch(this.PhoneNumber))
+            {
+                Console.WriteLine($"Your Phone number : {this.PhoneNumber}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Number");
             }
 
         }
