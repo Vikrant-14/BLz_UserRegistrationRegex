@@ -6,12 +6,16 @@ namespace RegexAssignment
     internal class UserRegistration
     {
         public string FirstName { get; set; }
+        public string LastName { get; set; }
 
 
         public void AcceptRecord()
         {
             Console.Write("Enter your First Name (1st Letter should be Capital) : ");
             this.FirstName = Console.ReadLine();
+
+            Console.Write("Enter your Last Name (1st Letter should be Capital) : ");
+            this.LastName = Console.ReadLine();
         }
 
         public void CheckRegex()
@@ -26,8 +30,18 @@ namespace RegexAssignment
             }
             else
             {
-                Console.WriteLine("Invalid Email format!!!");
+                Console.WriteLine("Invalid First Name format!!!");
             }
+
+            if (reg1.IsMatch(this.LastName))
+            {
+                Console.WriteLine($"Your Last Name : {this.LastName}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Last Name format!!!");
+            }
+
         }
         static void Main() 
         {
