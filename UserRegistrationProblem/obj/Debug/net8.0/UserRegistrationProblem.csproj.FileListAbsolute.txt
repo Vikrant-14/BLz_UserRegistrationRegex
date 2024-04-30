@@ -1,0 +1,15 @@
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\bin\Debug\net8.0\UserRegistrationProblem.exe
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\bin\Debug\net8.0\UserRegistrationProblem.deps.json
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\bin\Debug\net8.0\UserRegistrationProblem.runtimeconfig.json
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\bin\Debug\net8.0\UserRegistrationProblem.dll
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\bin\Debug\net8.0\UserRegistrationProblem.pdb
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.AssemblyInfoInputs.cache
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.AssemblyInfo.cs
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.csproj.CoreCompileInputs.cache
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.sourcelink.json
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.dll
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\refint\UserRegistrationProblem.dll
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.pdb
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\UserRegistrationProblem.genruntimeconfig.cache
+C:\Users\kirti\Vikrant\CDAC\BridgeLabz_Assign\Regex\UserRegistrationProblem\obj\Debug\net8.0\ref\UserRegistrationProblem.dll
